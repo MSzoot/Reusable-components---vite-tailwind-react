@@ -1,6 +1,7 @@
 import Badge from "./components/Badge";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Testimonial from "./components/Testimonial";
 
 
 
@@ -22,5 +23,7 @@ export const App = () => (
     <Card title="Easy Deployment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro, culpa assumenda sit inventore ad reprehenderit aspernatur.</Card>
     <br />
     <br />
+    
+    <Testimonial img="../public/May Anderson.jpeg" author="May Anderson" company="Workcation, CTO">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing olor sit amet consectetur adipisicing elit. Sednunc urna, sit.</Testimonial>
   </div>
 );
